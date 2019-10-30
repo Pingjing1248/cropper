@@ -29,7 +29,7 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            artifact "/开发/cropper/cropper/build/outputs/aar/cropper-debug.aar"
+            artifact "/开发/cropper_library/cropper/build/outputs/aar/cropper-release.aar"
             groupId "com.cropper"
             artifactId "edmodo"
             version "2.8.0"
